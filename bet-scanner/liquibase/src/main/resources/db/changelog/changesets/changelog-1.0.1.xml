@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                                       http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+  <changeSet id="1" author="zakharenko">
+    <sql>
+      CREATE TABLE IF NOT EXISTS marathonbet_game
+      (
+        `id`              BIGINT(20)     PRIMARY KEY AUTO_INCREMENT,
+        `date`            VARCHAR(255)   DEFAULT NULL,
+        `tournament`      VARCHAR(255)   DEFAULT NULL,
+        `sport_kind`      VARCHAR(255)   DEFAULT NULL,
+        `reference`       VARCHAR(255)   DEFAULT NULL
+      );
+    </sql>
+  </changeSet>
+
+</databaseChangeLog>
