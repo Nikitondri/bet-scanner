@@ -1,8 +1,8 @@
-package com.zakharenko.domain.marathonbet.service
+package com.zakharenko.gateway.marathonbet.service
 
-import com.zakharenko.domain.marathonbet.model.MarathonbetGame
-import com.zakharenko.domain.marathonbet.model.Months
-import com.zakharenko.domain.marathonbet.repository.MarathonbetGameRepository
+import com.zakharenko.gateway.marathonbet.model.MarathonbetGame
+import com.zakharenko.gateway.marathonbet.model.Months
+import com.zakharenko.gateway.marathonbet.repository.MarathonbetGameRepository
 import org.springframework.stereotype.Service
 import reactor.core.publisher.Flux
 import java.time.LocalDate

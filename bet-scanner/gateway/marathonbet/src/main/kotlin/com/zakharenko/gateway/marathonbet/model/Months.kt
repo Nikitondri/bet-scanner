@@ -1,4 +1,4 @@
-package com.zakharenko.domain.marathonbet.model
+package com.zakharenko.gateway.marathonbet.model
 
 enum class Months(
   private val num: Int,

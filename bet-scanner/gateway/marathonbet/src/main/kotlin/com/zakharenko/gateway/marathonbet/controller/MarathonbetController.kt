@@ -1,7 +1,7 @@
-package com.zakharenko.domain.marathonbet.controller
+package com.zakharenko.gateway.marathonbet.controller
 
-import com.zakharenko.domain.marathonbet.model.MarathonbetGame
-import com.zakharenko.domain.marathonbet.service.MarathonbetService
+import com.zakharenko.gateway.marathonbet.model.MarathonbetGame
+import com.zakharenko.gateway.marathonbet.service.MarathonbetService
 import org.springframework.web.bind.annotation.CrossOrigin
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping

@@ -1,4 +1,4 @@
-package com.zakharenko.domain.marathonbet.config
+package com.zakharenko.gateway.marathonbet.config
 
 import org.jooq.DSLContext
 import org.jooq.SQLDialect

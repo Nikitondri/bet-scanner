@@ -1,6 +1,6 @@
-package com.zakharenko.domain.marathonbet.repository
+package com.zakharenko.gateway.marathonbet.repository
 
-import com.zakharenko.domain.marathonbet.model.MarathonbetGame
+import com.zakharenko.gateway.marathonbet.model.MarathonbetGame
 import org.jooq.DSLContext
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Repository

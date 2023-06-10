@@ -1,4 +1,4 @@
-package com.zakharenko.domain.marathonbet
+package com.zakharenko.gateway.marathonbet
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
