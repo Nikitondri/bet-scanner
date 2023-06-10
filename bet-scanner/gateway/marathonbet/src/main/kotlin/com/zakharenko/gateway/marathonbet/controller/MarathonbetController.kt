@@ -10,7 +10,7 @@ import reactor.core.publisher.Flux
 
 @RestController
 @RequestMapping("/marathonbet")
-@CrossOrigin(origins = ["http://localhost:63342"])
+@CrossOrigin(origins = ["\${cors.origins}"])
 class MarathonbetController(
   private val marathonbetService: MarathonbetService,
 ) {
